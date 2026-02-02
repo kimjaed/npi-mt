@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below."
 title: "npi-mt: Neuro-Physical Inverter for 1D magnetotelluric data"
 type: software
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-02-02
 license: MIT
 
@@ -10,9 +10,7 @@ authors:
   - family-names: Kim
     given-names: Jae Deok
     email: kimjd@mit.edu
-    affiliation: "MIT-WHOI Joint Program in Oceanography and Oceanographic Engineering"
+    affiliation: "MIT-WHOI Joint Program"
 
-repository-code: "https://github.com/<YOUR_GITHUB_USERNAME>/npi-mt"
-
-# Add this after Zenodo creates it:
-# doi: "10.5281/zenodo.XXXXXXXX"
+repository-code: "https://github.com/kimjaed/npi-mt"
+doi: "10.5281/zenodo.18462490"
