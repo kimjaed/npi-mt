@@ -37,6 +37,7 @@ the full Neuro-Physical Inverter workflow.
 
 ## Citing
 
-If you use this software in academic work, please cite it.
+If you use this software in academic work, please cite it as:
 
-A DOI for this repository will be provided via Zenodo upon the first public release.
+Kim, J. D. (2026). *npi-mt: Neuro-Physical Inverter for 1D magnetotelluric data*.  
+Zenodo. https://doi.org/10.5281/zenodo.18462490
