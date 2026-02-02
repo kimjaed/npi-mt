@@ -26,6 +26,12 @@ ENV/
 # ============================
 outputs/**
 !outputs/.gitkeep
+!outputs/enscgp/
+!outputs/enscgp/gv161/
+!outputs/enscgp/gv161/**
+!outputs/npi/
+!outputs/npi/gv161/
+!outputs/npi/gv161/**
 
 # ============================
 # Model checkpoints / weights
