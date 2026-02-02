@@ -20,3 +20,22 @@ We recommend using a conda environment.
 conda create -n npi-mt python=3.10
 conda activate npi-mt
 pip install -e .
+
+---
+## Usage
+
+See the examples/ directory for Jupyter notebooks demonstrating:
+
+forward MT modeling,
+
+EnsCGP applied to real data,
+
+the full Neuro-Physical Inverter workflow.
+
+---
+
+## Citing
+
+If you use this software in academic work, please cite it.
+
+A DOI for this repository will be provided via Zenodo upon the first public release.

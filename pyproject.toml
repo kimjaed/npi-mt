@@ -17,7 +17,9 @@ authors = [
 dependencies = [
   "numpy",
   "scipy",
-  "matplotlib"
+  "matplotlib",
+  "torch",
+  "scikit-learn",
 ]
 
 [tool.setuptools]
