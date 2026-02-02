@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "npi-mt"
+version = "0.1.0"
+description = "Neuro-Physical Inverter for 1D magnetotelluric data"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Jae Deok Kim", email = "kimjd@mit.edu" }
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

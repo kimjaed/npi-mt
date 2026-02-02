@@ -1,0 +1,62 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ============================
+# Jupyter / IPython
+# ============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================
+# Outputs / Generated Results
+# ============================
+outputs/**
+!outputs/.gitkeep
+
+# ============================
+# Model checkpoints / weights
+# ============================
+*.pt
+*.pth
+*.ckpt
+
+# ============================
+# Logs / temporary files
+# ============================
+*.log
+*.tmp
+*.swp
+
+# ============================
+# OS / Editor junk
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============================
+# Coverage / Testing
+# ============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ============================
+# Misc
+# ============================
+*.bak
