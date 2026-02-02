@@ -347,7 +347,7 @@ def fine_tune_on_real_example(
             print(
                 f"Epoch {epoch+1:4d} | L={rec['loss_total']:.3e} | nRMS={rec['nrms_all']:.3f} "
                 f"(app={rec['nrms_app']:.3f}, phi={rec['nrms_phi']:.3f}) | "
-                f"λ_smooth={lam_smooth:.3g}"
+                f"lambda_smooth={lam_smooth:.3g}"
             )
 
         # ---- early stopping on nRMS ----
