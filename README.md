@@ -20,6 +20,7 @@ We recommend using a conda environment.
 conda create -n npi-mt python=3.10
 conda activate npi-mt
 pip install -e .
+```
 
 ---
 ## Usage
